@@ -14,6 +14,8 @@
 		842CAA5A22277B4900397087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842CAA5822277B4900397087 /* LaunchScreen.storyboard */; };
 		842CAA6522277B4A00397087 /* PlayWithMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CAA6422277B4A00397087 /* PlayWithMVVMTests.swift */; };
 		842CAA7022277B4A00397087 /* PlayWithMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CAA6F22277B4A00397087 /* PlayWithMVVMUITests.swift */; };
+		842CAA7E22277C5600397087 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CAA7D22277C5600397087 /* Car.swift */; };
+		842CAA8022277C7400397087 /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CAA7F22277C7400397087 /* CarViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		842CAA6B22277B4A00397087 /* PlayWithMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayWithMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842CAA6F22277B4A00397087 /* PlayWithMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithMVVMUITests.swift; sourceTree = "<group>"; };
 		842CAA7122277B4A00397087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842CAA7D22277C5600397087 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		842CAA7F22277C7400397087 /* CarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				842CAA4F22277B4800397087 /* AppDelegate.swift */,
+				842CAA7D22277C5600397087 /* Car.swift */,
+				842CAA7F22277C7400397087 /* CarViewModel.swift */,
 				842CAA5122277B4800397087 /* ViewController.swift */,
 				842CAA5322277B4800397087 /* Main.storyboard */,
 				842CAA5622277B4900397087 /* Assets.xcassets */,
@@ -258,6 +264,8 @@
 			files = (
 				842CAA5222277B4800397087 /* ViewController.swift in Sources */,
 				842CAA5022277B4800397087 /* AppDelegate.swift in Sources */,
+				842CAA7E22277C5600397087 /* Car.swift in Sources */,
+				842CAA8022277C7400397087 /* CarViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
